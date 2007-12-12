@@ -12,7 +12,7 @@ PAtch1:         %name-patch_other_locales.bz2
 License:	GPL
 Group:		Graphical desktop/Other
 BuildRoot:	%_tmppath/%name-buildroot
-BuildRequires:	XFree86-devel libxpm-devel
+BuildRequires:	X11-devel libxpm-devel
 
 %description
 

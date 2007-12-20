@@ -25,7 +25,7 @@ and can launch any external application for more complex calculations.
 
 %build
 # (tv) fix build:
-perl -pi -e 's!/usr/local/include!/usr/include/X11/!'
+perl -pi -e 's!/usr/local/include!/usr/include/X11/!' Makefile
 %make
 
 

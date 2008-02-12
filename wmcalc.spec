@@ -14,7 +14,6 @@ Group:		Graphical desktop/Other
 BuildRequires:	X11-devel libxpm-devel libx11-devel
 
 %description
-
 wmcalc is a small calculator meant for the WindowMaker dock or Afterstep
 Wharf.  It is a simple calculator with basic functions and memory slots,
 and can launch any external application for more complex calculations.

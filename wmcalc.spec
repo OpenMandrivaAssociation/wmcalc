@@ -1,6 +1,6 @@
 %define name    wmcalc
 %define version 0.3
-%define release %mkrel 9
+%define release %mkrel 10
 
 Name:		%name
 Version:	%version

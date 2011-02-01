@@ -1,6 +1,6 @@
 %define name    wmcalc
 %define version 0.3
-%define release %mkrel 10
+%define release %mkrel 11
 
 Name:		%name
 Version:	%version
@@ -12,7 +12,9 @@ PAtch1:         %name-patch_other_locales.bz2
 License:	GPL
 Group:		Graphical desktop/Other
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-BuildRequires:	X11-devel libxpm-devel libx11-devel
+BuildRequires:	libxpm-devel
+BuildRequires:	libx11-devel
+BuildRequires:	libxext-devel
 
 %description
 wmcalc is a small calculator meant for the WindowMaker dock or Afterstep

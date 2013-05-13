@@ -1,6 +1,6 @@
 %define name    wmcalc
 %define version 0.3
-%define release %mkrel 11
+%define release  12
 
 Name:		%name
 Version:	%version
@@ -11,7 +11,6 @@ Source:		http://ftp.debian.org/debian/pool/main/w/wmcalc/wmcalc_0.3.orig.tar.bz2
 PAtch1:         %name-patch_other_locales.bz2
 License:	GPL
 Group:		Graphical desktop/Other
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	pkgconfig(xpm)
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(xext)

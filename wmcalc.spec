@@ -12,9 +12,9 @@ PAtch1:         %name-patch_other_locales.bz2
 License:	GPL
 Group:		Graphical desktop/Other
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-BuildRequires:	libxpm-devel
-BuildRequires:	libx11-devel
-BuildRequires:	libxext-devel
+BuildRequires:	pkgconfig(xpm)
+BuildRequires:	pkgconfig(x11)
+BuildRequires:	pkgconfig(xext)
 
 %description
 wmcalc is a small calculator meant for the WindowMaker dock or Afterstep

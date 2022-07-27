@@ -4,7 +4,7 @@ Release:	1
 Summary:	Calculator dockapp for windowmaker
 Url:		http://packages.debian.org/unstable/x11/wmcalc.html
 Source:		http://ftp.debian.org/debian/pool/main/w/wmcalc/wmcalc_%{version}.orig.tar.gz
-PAtch1:         %name-patch_other_locales.bz2
+#PAtch1:         %name-patch_other_locales.bz2
 License:	GPL
 Group:		Graphical desktop/Other
 BuildRequires:	pkgconfig(xpm)
@@ -18,7 +18,7 @@ and can launch any external application for more complex calculations.
 
 %prep
 %setup -q -n %name-%version.orig
-%patch1 -p1 -b .orig
+#patch1 -p1 -b .orig
 
 %build
 # (tv) fix build:

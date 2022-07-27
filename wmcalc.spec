@@ -17,7 +17,7 @@ Wharf.  It is a simple calculator with basic functions and memory slots,
 and can launch any external application for more complex calculations.
 
 %prep
-%setup -q -n %name-%version.orig
+%setup -q -n %name-%version
 #patch1 -p1 -b .orig
 
 %build

@@ -37,7 +37,7 @@ perl -pi -e 's!/usr/local/include!/usr/include/X11/!' Makefile
 
 %files
 %defattr(0644,root,root,0755)
-%doc README .wmcalc
+%doc README
 %defattr(0755,root,root,0755)
 /usr/X11R6/bin/%name
 

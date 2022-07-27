@@ -1,13 +1,9 @@
-%define name    wmcalc
-%define version 0.3
-%define release  13
-
-Name:		%name
-Version:	%version
-Release:	%release
+Name:		wmcalc
+Version:	0.7
+Release:	1
 Summary:	Calculator dockapp for windowmaker
 Url:		http://packages.debian.org/unstable/x11/wmcalc.html
-Source:		http://ftp.debian.org/debian/pool/main/w/wmcalc/wmcalc_0.3.orig.tar.bz2
+Source:		http://ftp.debian.org/debian/pool/main/w/wmcalc/wmcalc_%{version}.orig.tar.gz
 PAtch1:         %name-patch_other_locales.bz2
 License:	GPL
 Group:		Graphical desktop/Other
